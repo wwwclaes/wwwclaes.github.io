@@ -1,32 +1,33 @@
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 
-* { 
+* {
   margin: 0;
   padding: 0px;
   font-family: 'Lato', sans-serif;
 }
 
-body { 
-  background: #fff; 
-  margin: 0; 
+body {
+  background: #fff;
+  margin: 0;
   color: #5a5a5a;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  text-align: 'center';
 }
 
-p { 
-  padding: 0; 
-  margin-bottom: 12px; 
+p {
+  padding: 0;
+  margin-bottom: 12px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 28px;
-  color: #666; 
-  margin-top: 10px; 
+  color: #666;
+  margin-top: 10px;
 }
 
 html,
@@ -67,10 +68,10 @@ body {
   padding: 0;
   margin: 0;
 }
-a { 
+a {
   padding: 0;
   margin: 0;
-  text-decoration: none; 
+  text-decoration: none;
   -webkit-transition: background-color .4s linear, color .4s linear;
   -moz-transition: background-color .4s linear, color .4s linear;
   -o-transition: background-color .4s linear, color .4s linear;
@@ -96,17 +97,9 @@ a:focus {
   background-attachment: relative;
   background-position: center center;
   min-height: 700px;
-  width: 100%;
-  
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
+  max-width: 120px;
 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-size: 1200px;
   color: white;
 }
 
