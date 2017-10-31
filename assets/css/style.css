@@ -16,7 +16,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  text-align: 'center';
 }
 
 p {
@@ -97,8 +96,10 @@ a:focus {
   background-attachment: relative;
   background-position: center center;
   min-height: 700px;
-  max-width: 120px;
 
+  -webkit-background-size: 1200px;
+  -moz-background-size: 1200px;
+  -o-background-size: 1200px;
   background-size: 1200px;
   color: white;
 }
