@@ -4,24 +4,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Claes Svensson IT AB — I can handle every aspect of a system & most importantly nowadays also AI.">
+    <meta name="description" content="Claes Svensson IT AB — I can handle every aspect of a system & most importantly also AI.">
     <meta name="author" content="Claes Svensson">
     <link rel="icon" href="assets/img/favicon.ico">
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Claes Svensson IT AB">
-    <meta property="og:description" content="I can handle every aspect of a system & most importantly nowadays also AI.">
+    <meta property="og:description" content="I can handle every aspect of a system & most importantly also AI.">
     <meta property="og:url" content="https://claessvensson.com/">
     <meta property="og:image" content="https://claessvensson.com/assets/img/header.jpg">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Claes Svensson IT AB">
-    <meta name="twitter:description" content="I can handle every aspect of a system & most importantly nowadays also AI.">
+    <meta name="twitter:description" content="I can handle every aspect of a system & most importantly also AI.">
     <meta name="twitter:image" content="https://claessvensson.com/assets/img/header.jpg">
 
     <title>Claes Svensson IT AB</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/ionicons.min.css" rel="stylesheet">
@@ -36,16 +36,16 @@
       </div><!--/logo-->
       <div class="container centered">
         <div class="row mt">
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <a href="https://claessvensson.com/cv.pdf" title="CV" aria-label="CV" target="_blank" rel="noopener noreferrer"><i class="ion-document-text"></i></a>
-          </div><!--/col-sm-4-->
+          </div><!--/col-md-4-->
 
-          <div class="col-sm-4">
-          </div><!--/col-sm-4-->
+          <div class="col-md-4">
+          </div><!--/col-md-4-->
 
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <a href="https://www.linkedin.com/in/wwwclaes" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="ion-social-linkedin"></i></a>
-          </div><!--/col-sm-4-->
+          </div><!--/col-md-4-->
 
         </div><!--/row-->
       </div><!--/container-->
@@ -64,8 +64,8 @@
     </div><!-- /.container -->
     <div class="container">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1 mb">
-          <img src="assets/img/keyboard.png" class="img-responsive center-block" alt="">
+        <div class="col-md-10 offset-md-1 mb">
+          <img src="assets/img/keyboard.png" class="img-fluid d-block mx-auto" alt="">
         </div>
       </div><!--/row-->
     </div><!--/.container-->
@@ -73,7 +73,7 @@
     <div id="f">
       <div class="container">
         <div class="row centered">
-          <div class="col-md-8 col-md-offset-2">
+          <div class="col-md-8 offset-md-2">
             Claes Svensson IT AB<br/>Rovägen 2, 74142 Knivsta, Sweden<br/>
 <script type="text/javascript" language="javascript">
 <!--
@@ -81,60 +81,26 @@
 // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
 // This code is freeware provided these four comment lines remain intact
 // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-{ coded = "bbb9OwjC@0rwGO.9ir"
-  key = "4gMUPzrEZdbRBv5yYqN0FsecopLh82lktXIKaA3Cj9iJDWTVOnmH7xwQuS1fG6"
-  shift=coded.length
-  link=""
-  for (i=0; i<coded.length; i++) {
-    if (key.indexOf(coded.charAt(i))==-1) {
-      ltr = coded.charAt(i)
-      link += (ltr)
-    }
-    else {
-      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-      link += (key.charAt(ltr))
-    }
+function decode(coded, key) {
+  var shift = coded.length
+  var link = ""
+  for (var i=0; i<coded.length; i++) {
+    var idx = key.indexOf(coded.charAt(i))
+    link += (idx==-1) ? coded.charAt(i) : key.charAt((idx-shift+key.length) % key.length)
   }
-document.write("Email: <a href='mailto:"+link+"'>"+link+"</a>")
+  return link
 }
+var email = decode("bbb9OwjC@0rwGO.9ir", "4gMUPzrEZdbRBv5yYqN0FsecopLh82lktXIKaA3Cj9iJDWTVOnmH7xwQuS1fG6")
+var mobile = decode("+Eg (9)j9mgc9gFm", "itZREbjXhuGKNpxdVs3vW2HQ1BzM0Ue6S8oIDmPTFCAq9rfgnL4a7kOlJyY5cw")
+document.write("Email: <a href='mailto:"+email+"'>"+email+"</a><br/>Mobile: "+mobile)
 //-->
-</script><noscript>Sorry, you need Javascript on to email me.</noscript>
-<br/>
-<script type="text/javascript" language="javascript">
-<!--
-// Email obfuscator script 2.1 by Tim Williams, University of Arizona
-// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
-// This code is freeware provided these four comment lines remain intact
-// A wizard to generate this code is at http://www.jottings.com/obfuscator/
-{ coded = "+Eg (9)j9mgc9gFm"
-  key = "itZREbjXhuGKNpxdVs3vW2HQ1BzM0Ue6S8oIDmPTFCAq9rfgnL4a7kOlJyY5cw"
-  shift=coded.length
-  link=""
-  for (i=0; i<coded.length; i++) {
-    if (key.indexOf(coded.charAt(i))==-1) {
-      ltr = coded.charAt(i)
-      link += (ltr)
-    }
-    else {
-      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-      link += (key.charAt(ltr))
-    }
-  }
-document.write("Mobile: " + link)
-}
-//-->
-</script><noscript>Sorry, you need Javascript to see my phone number.</noscript>
+</script><noscript>Sorry, you need Javascript on to see my email and phone number.</noscript>
           </div><!--/col-md-8-->
         </div>
       </div><!--/container-->
     </div><!--/.F-->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/retina-1.1.0.js"></script>
-    <script src="assets/js/custom.js"></script>
   </body>
 </html>
